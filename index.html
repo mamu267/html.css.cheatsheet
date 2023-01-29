@@ -1,9 +1,215 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Welcome to Moody's site on Codecademy</h1>
-  <p>I am Magmood Ajam</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <title>Magmood's HTML & CSS Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="/Users/majam/Desktop/Codecademy/html-css-cheatsheet-starting/CSS/styles.css">
+
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <br>
+    <h2>Table Tags</h2>
+    <table>
+      
+        <tbody>
+          <tr>
+            <td><span class="code">&lt;table&gt;</span></td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;thead&gt;</span></td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tbody&gt;</span></td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tr&gt;</span></td>
+            <td>Table Row</td>
+            <td>The table row container.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;td&gt;</span></td>
+            <td>Table Data</td>
+            <td>The table row container.</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;tfoot&gt;</span></td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer in a table.</td>
+          </tr>
+        </tbody>
+      <thead>
+          <tr><th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr></thead></table>
+        <br>
+        <h2>Table Attributes</h2>
+        <table>
+            <thead>
+              <tr><th>Attribute</th>
+              <th>Name</th>
+              <th>Description</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                  <td><span class="code">colspan</span></td> 
+                  <td>Column Span</td>
+                  <td>Defines how many columns a td element should span.</td>
+                </tr>
+              <tr>
+                <td><span class="code">rowspan</span></td>
+                <td>Row Span</td>
+                <td>Defines how many rows a td element should span.</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+    <h2> Other HTML Tags</h2>
+    <table>
+        <thead>
+          <tr><th>Attribute</th>
+          <th>Description</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+              <td><span class="code">&lt;h1&gt;</span></td> 
+              <td>paragraph</td>
+            </tr>
+          <tr>
+            <td><span class="code">&lt;img src="image.jpg"&gt;</span></td>
+            <td> Insert Image</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;a href="https://www.example.com">Example Link&gt;&lt;/&gt;</span></td>
+            <td>Hyperlink to location online</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;ol&gt;</span></td>
+            <td>Ordered list</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;ul&gt;</span></td>
+            <td>un-ordered list</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;li&gt;</span></td>
+            <td>list item</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;header&gt;</span></td>
+            <td>Header</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;nav&gt;</span></td>
+            <td>navigation</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;section&gt;</span></td>
+            <td>Section</td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;footer&gt;</span></td>
+            <td>Footer</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    <h1>CSS</h1>
+      <h2>CSS Selectors and Specificity</h2>
+      <table>
+        <thead>
+          <tr><th>Selector</th>
+          <th>Description</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+              <td><span class="code">'element' the actual element e.g. h1, p</span></td> 
+              <td>Selects all elements with the given tag name </td>
+            </tr>
+          <tr>
+            <td><span class="code">.class</span></td>
+            <td>Selects all the elements with the given class</td>
+          </tr>
+          <tr>
+            <td><span class="code">#id</span></td>
+            <td>selects element with the given id</td>
+          </tr>
+          <tr>
+            <td><span class="code">element.class</span></td>
+            <td>Selects all elements with the given name tag name and class</td>
+          </tr>
+          <tr>
+            <td><span class="code">element#id</span></td>
+            <td>selects the element with the given tag name and id </td>
+          </tr>
+          <tr>
+            <td><span class="code">element element</span></td>
+            <td>selects all elements that are nested within another element</td>
+          </tr>
+
+        </tbody>
+        <br>
+        
+      </table>
+      <br>
+      <h2>Common CSS properties</h2>
+      <table>
+        <thead>
+          <tr><th>Property</th>
+          <th>Description</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+              <td><span class="code">background-color</span></td> 
+              <td>Sets the background color of an element</td>
+            </tr>
+          <tr>
+            <td><span class="code">color</span></td>
+            <td>Sets the text color of an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">font-size</span></td>
+            <td>Sets the font size of text</td>
+          </tr>
+          <tr>
+            <td><span class="code">margin</span></td>
+            <td> Sets the margin around an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">padding</span></td>
+            <td>Sets the padding within an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">width</span></td>
+            <td>Sets the width of an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">height</span></td>
+            <td>- Sets the height of an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">text-align </span></td>
+            <td>Aligns text within an element</td>
+          </tr>
+          <tr>
+            <td><span class="code">display</span></td>
+            <td>Sets how an element is displayed on the page</td>
+          </tr>
+          <tr>
+            <td><span class="code">float</span></td>
+            <td> Floats an element to the left or right of its container.</td>
+          </tr>
+        </tbody>
+        <br>
+      </table>
+      <br>
+      <br>
+      <br>
+  </body> 
 </html>

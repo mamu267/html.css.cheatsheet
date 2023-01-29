@@ -1,0 +1,41 @@
+body{
+    background-color: #999092;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    
+}
+body h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+body h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.code {
+    font-family: monospace;
+    color: #000000;
+    font-size: 25px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    border-width: 5px;
+    padding: 8px;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  th {
+    background-color: #1E90FF;
+    
+  }
+  
